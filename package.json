@@ -1,0 +1,66 @@
+{
+  "name": "gulp-rev-manifest",
+  "version": "0.0.0",
+  "description": "Generate a rev-manifest file, mapping original filenames to versioned counterparts.",
+  "license": "MIT",
+  "repository": "lukeed/gulp-rev-manifest",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "maintainers": [
+    {
+      "name": "Justin Hileman",
+      "email": "justin@justinhileman.info",
+      "url": "justinhileman.info"
+    },
+    {
+      "name": "Luke Edwards",
+      "email": "luke@lukeed.com",
+      "url": "https://lukeed.com"
+    }
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin",
+    "rev",
+    "revving",
+    "revision",
+    "hash",
+    "optimize",
+    "version",
+    "versioning",
+    "cache",
+    "expire",
+    "static",
+    "asset",
+    "assets",
+    "manifest"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.0",
+    "object-assign": "^4.0.1",
+    "sort-keys": "^1.0.0",
+    "through2": "^2.0.0",
+    "vinyl-file": "^1.1.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "xo": "*"
+  },
+  "xo": {
+    "envs": [
+      "node",
+      "mocha"
+    ]
+  }
+}
